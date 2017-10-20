@@ -4,4 +4,4 @@ LABEL version="1.0"
 
 ADD my.cnf /etc/mysql/my.cnf
 
-COPY sql/* /docker-entrypoint-initdb.d/
+# COPY sql/* /docker-entrypoint-initdb.d/
