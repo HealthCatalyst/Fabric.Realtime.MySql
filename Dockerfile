@@ -1,4 +1,4 @@
-FROM mariadb:10
+FROM mariadb:10.3.9
 LABEL maintainer="Health Catalyst"
 LABEL version="1.0"
 
